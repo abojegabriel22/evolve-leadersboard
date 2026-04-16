@@ -1,0 +1,20 @@
+header {
+  /* Offset-x | Offset-y | Blur-radius | Spread-radius | Color */
+  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.15);
+  
+  /* Optional: gives it a sharp bottom border look with the glow */
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  
+  /* Ensures it stays above other elements */
+  position: relative;
+  z-index: 1000;
+}
+
+@media screen and (max-width: 500px) {
+    .img-header{
+        width: 40px !important;
+    }
+    .mediaQHeader{
+        font-size: 12px;
+    }
+}

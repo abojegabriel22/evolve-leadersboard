@@ -1,0 +1,23 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+:root{
+    --bg-color: rgb(5 10 15);
+    --blue-color: rgb(0 112 243);
+    --text-color: rgb(242 242 242);
+    --green-color: rgb(5 209 108);
+    --grey-color: rgb(135 135 135);
+    --big-font: 5rem;
+    --h2-font: 3rem;
+    --p-font: 1.1rem;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
