@@ -11,7 +11,7 @@ const Header = () => {
         <div className="container-fluid">
           {/* Change brand to a Link so it returns Home */}
           <Link className="navbar-brand" to="/">
-            <img className="img-header" src="src/assets/images/icon.png" alt="logo" width={50} />
+            <img className="img-header" src="https://i.ibb.co/RkqxRVtx/icon.png" alt="logo" width={50} />
             <span className="ps-3 mediaQHeader">EVOLVE PRO LEADERS BOARD</span>
           </Link>
           
