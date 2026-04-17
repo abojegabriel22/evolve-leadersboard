@@ -23,13 +23,12 @@ const Header = () => {
             <ul className="navbar-nav">
               <li className="nav-item">
                 {/* Use 'to' instead of 'href' */}
-                <Link className="nav-link" to="/" data-bs-toggle="collapse" data-bs-target="#navbarNav">Home</Link>
+                <Link className="nav-link" to="/">Home</Link>
               </li>
               <li className="nav-item">
                 <button 
                   className="btn btn-outline-light d-flex align-items-center gap-2 mx-lg-3" 
-                  onClick={connectWallet} 
-                  data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                  onClick={connectWallet}
                 >
                   {account ? (
                     <>
@@ -46,7 +45,7 @@ const Header = () => {
               </li>
               <li className="nav-item">
                 {/* Point this to the path defined in App.jsx */}
-                <Link className="nav-link" to="/leaders-board" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <Link className="nav-link" to="/leaders-board">
                   Leaders Board
                 </Link>
               </li>
