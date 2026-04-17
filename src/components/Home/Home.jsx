@@ -8,7 +8,7 @@ const HomeComponent = () => {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    setLoading(true);
+    // setLoading(true);
     fetch("https://crypto-api-hsdj.onrender.com/api/evolve")
       .then((res) => {
         if (!res.ok) throw new Error("Failed to fetch data from server");
