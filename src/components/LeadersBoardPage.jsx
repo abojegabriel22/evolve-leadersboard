@@ -8,6 +8,7 @@ const LeaderboardPage = () => {
 
 
   const fetchLeaders = () => {
+    // fetch("http://localhost:1299/api/evolve/top10")
     fetch("https://crypto-api-hsdj.onrender.com/api/evolve/top10")
       .then(res => res.json())
       .then(json => {
